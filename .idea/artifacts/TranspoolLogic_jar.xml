@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact name="TranspoolLogic:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TranspoolLogic_jar</output-path>
+    <root id="root">
+      <element id="archive" name="TranspoolLogic.jar">
+        <element id="module-output" name="TranspoolLogic" />
+      </element>
+      <element id="library" level="project" name="fxgraph-0.0.3" />
+    </root>
+  </artifact>
+</component>

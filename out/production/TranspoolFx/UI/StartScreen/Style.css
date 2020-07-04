@@ -1,0 +1,26 @@
+.button2
+{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 20;
+    -fx-text-fill: #2262C6;
+    -fx-font-family: "Gill Sans MT";
+}
+
+.button2:hover
+{
+    -fx-background-color: #E4EEFD;
+    -fx-background-radius: 20;
+}
+
+.button2:pressed
+{
+    -fx-background-color: #E4EEFD;
+    -fx-background-radius: 20;
+}
+
+.button1
+{
+    -fx-font-family: "Gill Sans MT";
+    -fx-text-fill: white;
+}
+

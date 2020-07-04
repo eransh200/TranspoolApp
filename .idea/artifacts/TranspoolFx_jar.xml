@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="TranspoolFx:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TranspoolFx_jar</output-path>
+    <root id="root">
+      <element id="archive" name="TranspoolFx.jar">
+        <element id="module-output" name="TranspoolFx" />
+        <element id="module-output" name="TranspoolLogic" />
+      </element>
+      <element id="library" level="project" name="fxgraph-0.0.3" />
+      <element id="library" level="project" name="jfoenix" />
+    </root>
+  </artifact>
+</component>

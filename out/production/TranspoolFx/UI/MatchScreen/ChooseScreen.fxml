@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="ChoosePane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="412.0" prefWidth="818.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.MatchScreen.ChooseScreenController">
+   <children>
+      <Pane prefHeight="55.0" prefWidth="554.0">
+         <children>
+            <Label layoutX="14.0" layoutY="18.0" text="FInd Match - Ride Suggestions" textFill="#1954e0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TableView fx:id="Table" layoutX="10.0" layoutY="63.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="273.0" prefWidth="777.0" AnchorPane.bottomAnchor="76.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="31.0" AnchorPane.topAnchor="63.0">
+         <columns>
+            <TableColumn fx:id="OfferNumber" prefWidth="78.4000244140625" text="Offer Num" />
+            <TableColumn fx:id="offerType" prefWidth="92.0" text="Type" />
+            <TableColumn fx:id="estimatedTime" prefWidth="117.0" text="Time" />
+            <TableColumn fx:id="passengerAvgFuelUtilization" prefWidth="127.0" text="Avg Fuel Utilization" />
+            <TableColumn fx:id="offerCost" text="Ride Cost " />
+            <TableColumn fx:id="InformationList" text="Information" />
+            <TableColumn fx:id="OfferMatchClick" text="click" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

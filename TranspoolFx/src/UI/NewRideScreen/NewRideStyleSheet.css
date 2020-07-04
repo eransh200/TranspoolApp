@@ -1,0 +1,49 @@
+.button2
+{
+    -fx-background-color: #1954e0;
+    -fx-background-radius: 20;
+    -fx-text-fill: white;
+    -fx-font-family: "Gill Sans MT";
+}
+
+.button2:hover
+{
+    -fx-background-color: #939efd;
+    -fx-background-radius: 20;
+}
+
+.button2:pressed
+{
+    -fx-background-color: #E4EEFD;
+    -fx-background-radius: 20;
+}
+
+
+
+.combo-box
+{
+    -fx-border-width: 0.5px;
+    -fx-border-color: #ACACAC;
+    -fx-border-radius: 50px;
+    -fx-background-radius: 50px;
+    -fx-padding: 0px;
+
+    -fx-font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif' ;
+
+}
+
+.combo-box:hover
+{
+    -fx-text-fill: white;
+}
+
+.combo-box-base:hover
+{
+    -fx-border-color: green;
+}
+.Question-label
+{
+    -fx-text-fill: #1954e0;
+    -fx-font-family: "Gill Sans MT";
+    -fx-font-size: 18;
+}
